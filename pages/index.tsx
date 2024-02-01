@@ -31,9 +31,9 @@ const Home: NextPage = () => {
 
   const prompt = `Generate 3 ${
     vibe === 'Casual' ? 'relaxed' : vibe === 'Funny' ? 'silly' : 'Professional'
-  } twitter biographies with no hashtags and clearly labeled "1.", "2.", and "3.". Only return these 3 twitter bios, nothing else. ${
-    vibe === 'Funny' ? 'Make the biographies humerous' : ''
-  }Make sure each generated biography is less than 300 characters, has short sentences that are found in Twitter bios, and feel free to use this context as well: ${bio}${
+  } caption ideas with no hashtags and clearly labeled "1.", "2.", and "3.". Only return these 3 twitter bios, nothing else. ${
+    vibe === 'Funny' ? 'Make the caption humerous' : ''
+  }Make sure each generated caption is less than 300 characters, has short sentences that are found in Instagram bios, and feel free to use this context as well: ${bio}${
     bio.slice(-1) === '.' ? '' : '.'
   }`;
 
